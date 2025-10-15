@@ -21,7 +21,7 @@ public class Reverser {
 public class Divisors {
     public static void main(String[] args) {
         for (int number = 1; number <= 100; number++) {
-            if (number % 3 == 0 && number % 5 == 0) {
+            if (number % 3 == 0) {
                 System.out.println("number");
             }
         }
@@ -51,6 +51,21 @@ public class EvenNumbers {
 	System.out.print("This are even numbers from 1 to 20: " + even + " ");
         }
     }
+}
+
+
+
+public class Average{
+	public static void main(String []args){
+		float sum = 0;
+		float average = 0;
+		for (int count = 1; count <= 100; count++ ){
+			sum += count;
+			average = sum/100;
+		}
+		System.out.print(average);
+			
+	}
 }
 
 

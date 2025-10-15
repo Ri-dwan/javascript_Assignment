@@ -1,6 +1,6 @@
 public class EvenNumbers {
     public static void main(String[] args) {
-        for (int number = 2; number <= 100; number += 2) {
+        for (count = 2; count <= 100; count += 2) {
 	System.out.print("This are even numbers from 1 to 100: " + even + " ");
         }
     }
@@ -8,7 +8,7 @@ public class EvenNumbers {
 
 public class OddNumbers {
     public static void main(String[] args) {
-        for (int number = 51; number <= 100; number += 2) {
+        for (count = 51; count <= 100; count += 2) {
           System.out.println("This are odd numbers from 50 to 100: " + odd + " ");
         }
     }
@@ -17,7 +17,7 @@ public class OddNumbers {
 
 public class DownNumbers {
     public static void main(String[] args) {
-        for (int number = 100; number >= 1; number--) {
+        for (count = 100; count >= 1; count--) {
         System.out.print("This are numbers from 1 to 100: " + numbers + " ");
         }
     }
@@ -27,7 +27,7 @@ public class DownNumbers {
 
 public class Squares {
     public static void main(String[] args) {
-        for (int number = 1; number <= 20; number++) {
+        for (count = 1; count <= 20; count++) {
   	System.out.print("This are the square of numbers from 1 to 200: " + square + " ");
         }
     } 
@@ -36,7 +36,7 @@ public class Squares {
 
 public class MultiplesOfThree {
     public static void main(String[] args) {
-        for (int number = 3; number <= 50; number += 3) {
+        for (count = 3; count <= 50; count += 3) {
 	System.out.println("This are the multiples of 3 between 1 and 50: " + number + " ");
         }
     }
@@ -46,7 +46,7 @@ public class MultiplesOfThree {
 
 public class Divisible {
     public static void main(String[] args) {
-        for (int number = 1; number <= 100; number++) {
+        for (count = 1; count <= 100; count++) {
             if (number % 3 == 0 && number % 5 == 0) {
                 System.out.println("number");
             }
@@ -59,7 +59,7 @@ public class Divisible {
 public class CountDivisibleBySeven {
     public static void main(String[] args) {
         int count = 0;
-        for (int number = 1; number <= 100; number++) {
+        for (count = 1; count <= 100; count++) {
             if (number % 7 == 0) {
                 count++;
             }
@@ -73,7 +73,7 @@ public class CountDivisibleBySeven {
 public class SumFirstFifty {
     public static void main(String[] args) {
         int sum = 0;
-        for (int number = 1; number <= 50; number++) {
+        for (count = 1; count <= 50; count++) {
             sum += number;
         }
         System.out.println("sum");
@@ -84,7 +84,7 @@ public class SumFirstFifty {
 public class ProductFirstTen {
     public static void main(String[] args) {
         int product = 1;
-        for (int number = 1; number <= 10; number++) {
+        for (count = 1; count <= 10; count++) {
             product *= number;
         }
         System.out.println("product");
@@ -97,8 +97,8 @@ public class MultiplicationTable {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
-        for (int number = 1; number <= 10; number++) {
-            System.out.println(num + "  " + number + " = " + (num * number));
+        for (count = 1; count <= 10; count++) {
+            System.out.println(number + "  " + number + " = " + (number * number));
         }
         
     }
@@ -112,7 +112,7 @@ public class CountVowels {
         System.out.print("Enter a string: ");
         String number = scanner.nextLine().toLowerCase();
         int count = 0;
-        for (int count = 0; count < str.length(); count++) {
+        for ( count = 0; count < str.length(); count++) {
             char c = str.charAt();
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
                 count++;

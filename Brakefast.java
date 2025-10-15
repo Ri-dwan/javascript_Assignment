@@ -58,8 +58,8 @@ public class EvenNumbers {
 
 public class Average{
 	public static void main(String []args){
-		float sum = 0;
-		float average = 0;
+		int sum = 0;
+		int average = 0;
 		for (int count = 1; count <= 100; count++ ){
 			sum += ;
 			average = sum/100;
@@ -70,6 +70,17 @@ public class Average{
 }
 
 
+
+public class Vowel{
+	public static void main(String[] args) {
+	String[] days = {"m","o","n","d","a","y"};
+
+	for(int count = 5; count < days.length; count = - 1) {
+  if (count < 0) {
+    break;
+   }
+System.out.println(days[]);
+  
 
 
 

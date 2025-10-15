@@ -34,9 +34,9 @@ public class Divisors {
 public class OddNumber {
 public static void main(String[] arge) {
 
-	int count =1;
-     for (; count <=10;){
-	System.out.println(count);
+	int count =0;
+     for (; count <=20;){
+	System.out.println("The sum of even  is :" + Odd}
 	count+=2;
 
   }
@@ -47,9 +47,10 @@ public static void main(String[] arge) {
 
 public class EvenNumbers {
     public static void main(String[] args) {
-        for (int number = 2; number <= 20; number += 2) {
-	System.out.print("This are even numbers from 1 to 20: " + even + " ");
-        }
+
+	int sum = 0;
+        for (int count = 0; count <= 20; count += 3) {
+	System.out.println("The sum of even  is :" + even}
     }
 }
 
@@ -60,14 +61,13 @@ public class Average{
 		float sum = 0;
 		float average = 0;
 		for (int count = 1; count <= 100; count++ ){
-			sum += count;
+			sum += ;
 			average = sum/100;
 		}
 		System.out.print(average);
 			
 	}
 }
-
 
 
 
